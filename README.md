@@ -29,24 +29,6 @@ The system accepts PDF invoices, extracts invoice information using AI, converts
 - Uvicorn
 - Python Dotenv
 
----
-
-## 📂 Project Structure
-
-```
-ai_invoice_automation/
-│
-├── app/
-│   ├── router/
-│   ├── services/
-│   ├── config.py
-│
-├── uploads/
-├── main.py
-├── requirements.txt
-├── .env
-└── README.md
-```
 
 ---
 
@@ -64,9 +46,7 @@ JSON Output
 Excel Generation
 ```
 
----
 
-## API Endpoint
 
 ### Upload Invoice
 
